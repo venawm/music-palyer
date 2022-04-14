@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.song{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    img{
+        width: 20%;
+        height: 50%;
+        border-radius: 50%;
+    }
+    h1{
+        padding-top: 2rem;
+        font-family: 'Lato', sans-serif;
+        color: grey;
+       
+    }
+    h2{
+        font-family: 'Lato', sans-serif;
+        color: grey;
+      
+    
+    }
+   
+  
+}
+
+@media screen and (max-width: 768px) {
+    .song{
+    img{
+        width: 50%;
+    }
+}
+.navbar{
+    button{
+        z-index: 1;
+    }
+}
+.logos{
+    justify-content: space-around;
+}
+}
